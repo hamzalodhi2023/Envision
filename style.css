@@ -1,0 +1,1142 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+  /* font-family: "Righteous", cursive; */
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(images/header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+}
+
+.contactdiv {
+  /* border: 1px solid white; */
+  height: 40px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.phonediv {
+  /* border: 1px solid red; */
+  font-size: 13px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.emaildiv {
+  /* border: 1px solid red; */
+  font-size: 13px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+/*` navbar css started */
+.nav-div {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  /* border: 1px solid white; */
+  width: 40%;
+  height: 80px;
+}
+
+.logo-div {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-div img {
+  /* border: 1px solid red; */
+  width: 110px;
+  transition: 0.7s;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.nav-right {
+  /* border: 1px solid red; */
+  width: 60%;
+  height: 80px;
+
+  display: flex;
+}
+
+.nav-right ul {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-right ul div {
+  /* border: 1px solid greenyellow; */
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.7s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right ul div:hover {
+  background-color: #ff2492;
+  color: white;
+  border-radius: 50px;
+}
+/*? navbar css ended */
+
+/*` header center content css started */
+
+.center-cont {
+  /* border: 1px solid white; */
+  height: 500px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cont {
+  /* border: 1px solid red; */
+  color: white;
+  text-align: center;
+}
+
+.cont1 {
+  /* border: 1px solid blue; */
+  height: 130px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  font-family: "Righteous", cursive;
+}
+
+.cont1 span {
+  color: #ff2492;
+  font-weight: 700;
+}
+
+.cont2 {
+  /* border: 1px solid red; */
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: -100;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.cont3 {
+  /* border: 1px solid red; */
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.cont4 {
+  height: 80px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  /* border: 1px solid white; */
+  background-color: transparent;
+  color: #cccccc;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 50px;
+  cursor: pointer;
+  transition: 0.8s;
+  border: 1px solid #ff2492;
+  color: #ff2492;
+  border-radius: 20px 20px 0px 20px;
+}
+.btn:hover {
+  background-color: #ff2492;
+  color: white;
+}
+
+.cont5 {
+  /* border: 1px solid white; */
+  height: 100px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont5 i {
+  /* border: 1px solid white; */
+  color: white;
+  font-size: 25px;
+  margin: 0px 20px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.cont5 i:hover {
+  color: #ff2492;
+  rotate: 360deg;
+}
+/*? header center content css ended */
+
+/*` herosec1 css started */
+.herosec1 {
+  background-color: black;
+  height: 1250px;
+  width: 100%;
+}
+
+.hero-heading {
+  /* border: 1px solid white; */
+  height: 120px;
+  width: 100%;
+  font-size: 50px;
+  color: #ff2492;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-div {
+  /* border: 1px solid white; */
+  height: 1100px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.cards {
+  /* border: 1px solid white; */
+  /* background-color: rgb(29, 29, 29); */
+  width: 29%;
+  height: 500px;
+  margin-top: 20px;
+  padding: 5px;
+  transition: 0.7s;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards h3 {
+  color: #ff2492;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.cardbg {
+  border: 1px solid #ff2492;
+  height: 350px;
+  width: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.7s;
+
+  align-self: center;
+}
+
+.cardbg:hover {
+  border-radius: 0;
+}
+
+.cardbg1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/wedding.jpg);
+}
+.cardbg2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/EVENT\ PLANNING\ SERVICES.jpg);
+}
+.cardbg3 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/CATERING\ SERVICES.jpg);
+}
+.cardbg4 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/BRAND\ ACTIVATIONS.jpg);
+}
+.cardbg5 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/CORPORATE\ EVENT\ PLANNING.jpg);
+}
+.cardbg6 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/TEAM\ BUILDING\ ACTIVITIES.jpg);
+}
+
+.cardbg1:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/wedding.jpg);
+}
+
+.cardbg2:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/EVENT\ PLANNING\ SERVICES.jpg);
+}
+
+.cardbg3:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/CATERING\ SERVICES.jpg);
+}
+
+.cardbg4:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/BRAND\ ACTIVATIONS.jpg);
+}
+
+.cardbg5:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/CORPORATE\ EVENT\ PLANNING.jpg);
+}
+
+.cardbg6:hover {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(images/TEAM\ BUILDING\ ACTIVITIES.jpg);
+}
+
+.cardtxt {
+  /* border: 1px solid white; */
+  height: 80px;
+  width: 90%;
+  align-self: center;
+  margin: 15px;
+}
+
+.cardtxt p {
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 13px;
+}
+/*? herosec1 css ended */
+/*` herosec2 css started */
+.herosec2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/About\ us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1100px;
+  width: 100%;
+}
+
+.herosec2txt {
+  /* border: 1px solid white; */
+  padding: 30px 30px;
+  width: 80%;
+  font-size: large;
+  font-weight: 200;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0 auto;
+  color: white;
+  background: rgba(128, 128, 128, 0.199);
+}
+
+.testimonials {
+  /* border: 1px solid white; */
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials h2 {
+  /* border: 1px solid white; */
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff2492;
+}
+
+.testdiv {
+  /* border: 1px solid white; */
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.testcard {
+  /* border: 1px solid white; */
+  height: 500px;
+  width: 30%;
+  padding: 5px;
+  transition: 0.7s;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.testcard:hover {
+  background-color: #ff2492;
+}
+
+.photo {
+  /* border: 1px solid white; */
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+
+  align-self: center;
+}
+
+.photo1 {
+  background-image: url(images/photo1.jpg);
+  /* border: 1px solid white; */
+}
+
+.photo2 {
+  background-image: url(images/photo2.jpg);
+  /* border: 1px solid white; */
+}
+
+.photo3 {
+  background-image: url(images/photo3.jpg);
+  /* border: 1px solid white; */
+}
+
+.name {
+  /* border: 1px solid white; */
+  height: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rank {
+  /* border: 1px solid white; */
+  height: 30px;
+  color: white;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  /* border: 1px solid white; */
+  background-color: #ff249138;
+  height: 150px;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+.about i {
+  padding: 0px 5px;
+  font-size: 30px;
+}
+/*? herosec2 css ended */
+
+/*` MQ CSS STARTED */
+
+/*` MOBILE DEVICES HEADER STARTED*/
+@media only screen and (max-width: 786px) and (min-width: 320px) {
+  .nav-div {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-left {
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-div {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .logo-div img {
+    /* border: 1px solid red; */
+    width: 150px;
+    margin: 0;
+    transition: 0.7s;
+  }
+
+  .nav-right {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .nav-right ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .nav-right ul div {
+    /* border: 1px solid greenyellow; */
+    width: 100%;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 2px 0px;
+    transition: 0.7s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-right ul div:hover {
+    background-color: #ff2492;
+    color: white;
+  }
+
+  .center-cont {
+    /* border: 1px solid white; */
+    height: 300px;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .cont {
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .cont1 {
+    font-size: 35px;
+    height: 45px;
+  }
+
+  .cont2 {
+    /* border: 1px solid red; */
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .cont3 {
+    height: 45px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .cont4 {
+    height: 55px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont5 {
+    height: 60px;
+  }
+
+  .cont5 i:hover {
+    color: #ff2492;
+    rotate: 360deg;
+  }
+
+  .btn {
+    /* border: 1px solid white; */
+    padding: 5px 30px;
+    font-size: 12px;
+  }
+}
+/*? MOBILE DEVICES HEADER ENDED*/
+
+/*` TAB DEVICES HEADER STARTED*/
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+  header {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 520px;
+    width: 100%;
+  }
+
+  /*` navbar css started */
+  .nav-div {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-left {
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 150px;
+  }
+
+  .logo-div {
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-div img {
+    /* border: 1px solid red; */
+    width: 120px;
+    cursor: pointer;
+    margin: 0px;
+  }
+
+  .nav-right {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-right ul {
+    /* border: 1px solid greenyellow; */
+    width: 95%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-right ul div {
+    /* border: 1px solid greenyellow; */
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.7s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center-cont {
+    /* border: 1px solid white; */
+    height: 500px;
+    margin-top: 0px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cont {
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+  }
+
+  .cont1 {
+    /* border: 1px solid blue; */
+    height: 100px;
+    width: 100%;
+    font-size: 80px;
+    font-weight: 100;
+    font-family: "Righteous", cursive;
+  }
+
+  .cont1 span {
+    color: #ff2492;
+    font-weight: 700;
+  }
+
+  .cont2 {
+    /* border: 1px solid red; */
+    height: 60px;
+  }
+  .cont3 {
+    height: 40px;
+  }
+
+  .cont4 {
+    height: 60px;
+  }
+
+  .cont5 {
+    height: 90px;
+  }
+}
+
+/*? TAB DEVICES HEADER ENDED*/
+
+/*` HERO SECTION 1 MOBILE DEVICES  STARTED*/
+@media only screen and (max-width: 601px) and (min-width: 320px) {
+  .herosec1 {
+    height: 3100px;
+    width: 100%;
+  }
+
+  .hero-heading {
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .card-div {
+    /* border: 1px solid white; */
+    height: 3000px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+  }
+
+  .cardbg {
+    border: 1px solid #ff2492;
+    height: 250px;
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.7s;
+
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 786px) and (min-width: 601px) {
+  .herosec1 {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .hero-heading {
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .card-div {
+    /* border: 1px solid white; */
+    height: 1500px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+  }
+
+  .cardbg {
+    border: 1px solid #ff2492;
+    height: 250px;
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.7s;
+
+    align-self: center;
+  }
+}
+
+/*? HERO SECTION 1 MOBILE DEVICES  ENDED*/
+
+/*` HERO SECTION 1 TAB DEVICES STARTED */
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+  .herosec1 {
+    height: 1600px;
+    width: 100%;
+  }
+
+  .hero-heading {
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .card-div {
+    /* border: 1px solid white; */
+    height: 1500px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+
+    flex-wrap: wrap;
+  }
+
+  .cardbg {
+    border: 1px solid #ff2492;
+    height: 250px;
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.7s;
+
+    align-self: center;
+  }
+}
+
+/*? HERO SECTION 1 TAB DEVICES ENDED */
+
+/*` HERO SECTION 2 MOBILE DEVICES STARTED */
+@media only screen and (max-width: 601px) and (min-width: 320px) {
+  .herosec2 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(images/About\ us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3300px;
+    width: 100%;
+  }
+
+  .herosec2txt {
+    /* border: 1px solid white; */
+    padding: 30px 30px;
+    width: 80%;
+    font-size: large;
+    font-weight: 200;
+    text-align: justify;
+    text-align-last: center;
+    margin: 0 auto;
+    color: white;
+    background: rgba(128, 128, 128, 0.199);
+  }
+
+  .testimonials {
+    /* border: 1px solid white; */
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonials h2 {
+    /* border: 1px solid white; */
+    font-size: 50px;
+    font-weight: 500;
+    color: #ff2492;
+  }
+
+  .testdiv {
+    /* border: 1px solid blue; */
+    height: 1600px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .testcard {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 300px;
+    padding: 5px;
+    transition: 0.7s;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .about {
+    /* border: 1px solid white; */
+    background-color: #ff249138;
+    height: 160px;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+  }
+}
+/*? herosec2 css ended */
+
+/*? HERO SECTION 2 MOBILE DEVICES ENDED */
+
+/*` HERO SECTION 2 TAB DEVICES STARTED */
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+  .herosec2 {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(images/About\ us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1500px;
+    width: 100%;
+  }
+
+  .herosec2txt {
+    /* border: 1px solid white; */
+    padding: 30px 30px;
+    width: 80%;
+    font-size: large;
+    font-weight: 200;
+    text-align: justify;
+    text-align-last: center;
+    margin: 0 auto;
+    color: white;
+    background: rgba(128, 128, 128, 0.199);
+  }
+
+  .testimonials {
+    /* border: 1px solid white; */
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonials h2 {
+    /* border: 1px solid white; */
+    font-size: 50px;
+    font-weight: 500;
+    color: #ff2492;
+  }
+
+  .testdiv {
+    /* border: 1px solid blue; */
+    height: 700px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .testcard {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 250px;
+    padding: 5px;
+    transition: 0.7s;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .about {
+    /* border: 1px solid white; */
+    background-color: #ff249138;
+    height: 200px;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+  }
+}
+
+/*? HERO SECTION 2 TAB DEVICES ENDED */
+
+/*? MQ CSS ENDED */
