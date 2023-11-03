@@ -44,5 +44,5 @@ Launch the index.html file in your web browser.
 
 Contact
 GitHub: hamzalodhi2023
-Email: [hamzalodhi2023@gmail.com]
+Email: hamzalodhi2023@gmail.com
 Thank you for visiting the Envision Website project! Dive into a world of creativity and innovation with this responsive website.
